@@ -34,7 +34,7 @@ public class ProgramA {
 			checkOut = sdf.parse(sc.next());
 
 			reserv.updateDates(checkIn, checkOut);
-			System.out.println("Error ir reservation: " + reserv);
+			System.out.println("Reservation: " + reserv);
 		} 
 		catch (ParseException e) {
 			System.out.println("Invalid date format");
